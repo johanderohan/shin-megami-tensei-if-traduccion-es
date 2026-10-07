@@ -2,6 +2,8 @@
 
 [![Invítame a un café en Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/johanderohan)
 
+Ficha del proyecto, capturas y más traducciones al castellano en **[Parches en Castellano](https://parchesencastellano.com/traducciones/playstation/shin-megami-tensei-if)**.
+
 Traducción al **español de España** de *Shin Megami Tensei if...* (真・女神転生if..., PlayStation,
 2002), la versión de PlayStation del RPG de Atlus en el que un instituto entero acaba arrastrado
 al mundo demoníaco. Nunca salió de Japón.
