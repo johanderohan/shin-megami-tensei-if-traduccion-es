@@ -13,7 +13,10 @@ japonesa para aplicarlo.
 
 ## Estado
 
-Última versión: **[v1.3](../../releases/tag/v1.3)** (7 de noviembre de 2026).
+Última versión: **[v1.4](../../releases/tag/v1.4)** (7 de noviembre de 2026).
+
+**Novedades de la v1.4**: la «s» minúscula de la fuente pequeña (cabecera «Puntos» y nombres del
+grupo) ya no parece un 5.
 
 **Novedades de la v1.3**: pantalla de subida de nivel en castellano («Puntos», «¿Confirmas?»)
 y aviso de carga («Cargando»).
@@ -98,7 +101,7 @@ encuentras un error, abre una incidencia con una captura.
 4. Aplica el parche con una de estas herramientas:
    - **Windows**: [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases)
    - **Linux / macOS**: `xdelta3 -d -s "Shin Megami Tensei If... (Japan).bin" parche.xdelta "Shin Megami Tensei if (ES).bin"`
-5. Comprueba que el BIN resultante tiene el MD5 **`67fca02dfbabcaf053e74b15bb5f45f4`** (v1.3).
+5. Comprueba que el BIN resultante tiene el MD5 **`b8ba2a13ddd701b9ed7a67876869b7a0`** (v1.4).
 6. Crea un CUE para el nuevo BIN, por ejemplo `Shin Megami Tensei if (ES).cue`:
 
    ```
