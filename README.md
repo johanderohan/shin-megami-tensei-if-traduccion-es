@@ -13,7 +13,11 @@ japonesa para aplicarlo.
 
 ## Estado
 
-Última versión: **[v1.0](../../releases/tag/v1.0)**.
+Última versión: **[v1.1](../../releases/tag/v1.1)** (7 de noviembre de 2026).
+
+**Novedades de la v1.1**: arreglado el cuelgue al entrar en EQUIP (pantalla en negro) y al
+equipar objetos de nombre largo; barra del menú del campo en castellano (MAGIA, OBJETO,
+EQUIPO, ESTADO, ORDEN); etiquetas y nombres largos abreviados para que quepan en los menús.
 
 | Parte | Estado |
 |---|---|
@@ -38,7 +42,8 @@ Detalles técnicos:
 Se quedan como en el original:
 
 - El logotipo y los rótulos gráficos en inglés que forman parte de la imagen del juego
-  («NEW GAME», «COMP», «FIGHT», los encabezados de la pantalla de estado…).
+  («NEW GAME», «FIGHT», los encabezados de la pantalla de estado…). La barra del menú del
+  campo sí está traducida; COMP conserva su nombre.
 - Los términos que el original escribe en inglés, como LAW, CHAOS o NEUTRAL.
 - El himno del instituto que abre dos de los finales.
 
@@ -48,7 +53,8 @@ Se ha jugado en emulador desde una partida nueva por el instituto. Se han compro
 
 - La pantalla de título, la adivina Nova, el cuestionario y la pantalla de nombre.
 - El prólogo, la llegada de Yumi y los diálogos del instituto (alumnos, enfermería, dirección).
-- Los menús del campo (COMP, magia, objetos, equipo, estado y formación).
+- Los menús del campo (COMP, magia, objetos, equipo, estado y formación), incluida la pantalla
+  de equipo con nombres largos en todas las ranuras (v1.1).
 - Combates: órdenes, mensajes de ataque, daño, magia enemiga y huida.
 - La muerte del protagonista y la escena de Caronte.
 - El vídeo de introducción.
@@ -86,7 +92,7 @@ encuentras un error, abre una incidencia con una captura.
 4. Aplica el parche con una de estas herramientas:
    - **Windows**: [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases)
    - **Linux / macOS**: `xdelta3 -d -s "Shin Megami Tensei If... (Japan).bin" parche.xdelta "Shin Megami Tensei if (ES).bin"`
-5. Comprueba que el BIN resultante tiene el MD5 **`d99aa3c294d54bd39804094cb309b86c`** (v1.0).
+5. Comprueba que el BIN resultante tiene el MD5 **`647fae6c7650f40a8c2521911bd2bbe7`** (v1.1).
 6. Crea un CUE para el nuevo BIN, por ejemplo `Shin Megami Tensei if (ES).cue`:
 
    ```
